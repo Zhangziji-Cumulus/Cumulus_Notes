@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="TqSlDJbA6QzODEuQCkG5">
-    <mxGraphModel dx="3098" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1849" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5QGncahA_okGTffsJAF5-121" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;程序的运行逻辑&lt;/font&gt;" vertex="1">
-          <mxGeometry height="700" width="790" x="580" y="1360" as="geometry" />
+          <mxGeometry height="700" width="631" x="610" y="1250" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-122" parent="5QGncahA_okGTffsJAF5-121" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;用户初始化&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="200" y="235" as="geometry" />
@@ -29,19 +29,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-128" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;任务的设计思路&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="940" width="620" x="-150" y="1360" as="geometry" />
+          <mxGeometry height="940" width="760" x="-210" y="1250" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-133" parent="5QGncahA_okGTffsJAF5-128" style="rounded=1;whiteSpace=wrap;html=1;" value="初始化函数" vertex="1">
           <mxGeometry height="60" width="120" x="55" y="30" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-134" parent="5QGncahA_okGTffsJAF5-128" style="rounded=1;whiteSpace=wrap;html=1;" value="获取数据、状态函数" vertex="1">
-          <mxGeometry height="60" width="120" x="57.5" y="376.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="55" y="403.75" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-136" parent="5QGncahA_okGTffsJAF5-128" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="66" width="20" x="182.5" y="377.5" as="geometry" />
+          <mxGeometry height="66" width="20" x="180" y="404.75" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-141" parent="5QGncahA_okGTffsJAF5-128" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;" value="&lt;ol&gt;&lt;li&gt;控制指令&lt;/li&gt;&lt;li&gt;电机数据&lt;/li&gt;&lt;li&gt;IMU姿态&lt;/li&gt;&lt;li&gt;控制模式&lt;/li&gt;&lt;/ol&gt;" vertex="1">
-          <mxGeometry height="100" width="155" x="182.5" y="356.5" as="geometry" />
+          <mxGeometry height="100" width="155" x="180" y="383.75" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-143" parent="5QGncahA_okGTffsJAF5-128" style="rounded=1;whiteSpace=wrap;html=1;" value="处理异常" vertex="1">
           <mxGeometry height="60" width="120" x="57.5" y="579.5" as="geometry" />
@@ -52,32 +52,38 @@
         <mxCell id="5QGncahA_okGTffsJAF5-147" parent="5QGncahA_okGTffsJAF5-128" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;" value="&lt;ol&gt;&lt;li&gt;遥控器控制保护&lt;/li&gt;&lt;li&gt;图传控制保护&lt;/li&gt;&lt;li&gt;双板通信保护&lt;/li&gt;&lt;li&gt;IMU丢失保护&lt;/li&gt;&lt;/ol&gt;" vertex="1">
           <mxGeometry height="100" width="155" x="187.5" y="552.5" as="geometry" />
         </mxCell>
-        <mxCell id="5QGncahA_okGTffsJAF5-148" parent="5QGncahA_okGTffsJAF5-128" style="shape=mxgraph.arrows2.bendArrow;direction=west;whiteSpace=wrap;html=1;shadow=0;dashed=0;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;rotation=0;flipH=1;legacyAnchorPoints=0;" value="" vertex="1">
-          <mxGeometry height="110" width="140" x="102.5" y="652.5" as="geometry" />
+        <mxCell id="5QGncahA_okGTffsJAF5-148" parent="5QGncahA_okGTffsJAF5-128" style="shape=mxgraph.arrows2.bendArrow;direction=west;whiteSpace=wrap;html=1;shadow=0;dashed=0;dy=10.86;dx=41.29;notch=0;arrowHead=55;rounded=1;rotation=0;flipH=1;legacyAnchorPoints=0;" value="" vertex="1">
+          <mxGeometry height="110" width="90" x="110" y="652.5" as="geometry" />
         </mxCell>
-        <mxCell id="5QGncahA_okGTffsJAF5-154" parent="5QGncahA_okGTffsJAF5-128" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=90;" value="" vertex="1">
-          <mxGeometry height="70" width="262.5" x="-16.25" y="201.25" as="geometry" />
+        <mxCell id="5QGncahA_okGTffsJAF5-154" parent="5QGncahA_okGTffsJAF5-128" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.63;dx=42.54;notch=0;rotation=90;" value="" vertex="1">
+          <mxGeometry height="70" width="286.25" x="-28.13" y="213.13" as="geometry" />
         </mxCell>
-        <mxCell id="5QGncahA_okGTffsJAF5-155" parent="5QGncahA_okGTffsJAF5-128" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=90;" value="" vertex="1">
-          <mxGeometry height="70" width="120" x="57.5" y="472.5" as="geometry" />
+        <mxCell id="5QGncahA_okGTffsJAF5-155" parent="5QGncahA_okGTffsJAF5-128" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=41.64;notch=0;rotation=90;" value="" vertex="1">
+          <mxGeometry height="70" width="97.5" x="68.75" y="483.75" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-156" parent="5QGncahA_okGTffsJAF5-128" style="rounded=1;whiteSpace=wrap;html=1;" value="设置模式" vertex="1">
-          <mxGeometry height="60" width="120" x="262.5" y="702.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="207.5" y="702.5" as="geometry" />
         </mxCell>
-        <mxCell id="5QGncahA_okGTffsJAF5-158" parent="5QGncahA_okGTffsJAF5-128" style="shape=mxgraph.arrows2.bendArrow;direction=west;whiteSpace=wrap;html=1;shadow=0;dashed=0;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;rotation=-90;flipH=1;legacyAnchorPoints=0;" value="" vertex="1">
-          <mxGeometry height="127.5" width="105" x="413.75" y="633.75" as="geometry" />
+        <mxCell id="5QGncahA_okGTffsJAF5-158" parent="5QGncahA_okGTffsJAF5-128" style="shape=mxgraph.arrows2.bendArrow;direction=west;whiteSpace=wrap;html=1;shadow=0;dashed=0;dy=11.95;dx=35.52;notch=0;arrowHead=55;rounded=1;rotation=-90;flipH=1;legacyAnchorPoints=0;" value="" vertex="1">
+          <mxGeometry height="81.25" width="105" x="540" y="652.5" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-160" parent="5QGncahA_okGTffsJAF5-128" style="rounded=1;whiteSpace=wrap;html=1;" value="计算控制量" vertex="1">
-          <mxGeometry height="60" width="120" x="442.5" y="579.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="540" y="576.5" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-161" parent="5QGncahA_okGTffsJAF5-128" style="rounded=1;whiteSpace=wrap;html=1;" value="发送控制量" vertex="1">
-          <mxGeometry height="60" width="120" x="442.5" y="376.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="532.5" y="376.5" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-163" parent="5QGncahA_okGTffsJAF5-128" style="shape=mxgraph.arrows2.bendArrow;direction=west;whiteSpace=wrap;html=1;shadow=0;dashed=0;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;rotation=-180;flipH=1;legacyAnchorPoints=0;" value="" vertex="1">
-          <mxGeometry height="116.5" width="370" x="142.5" y="246.5" as="geometry" />
+          <mxGeometry height="116.5" width="470" x="140" y="250" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-165" parent="5QGncahA_okGTffsJAF5-128" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=-90;" value="" vertex="1">
-          <mxGeometry height="70" width="120" x="442.5" y="472.5" as="geometry" />
+          <mxGeometry height="70" width="120" x="540" y="472.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-204" parent="5QGncahA_okGTffsJAF5-128" style="rounded=1;whiteSpace=wrap;html=1;" value="更新目标" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="702.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-205" parent="5QGncahA_okGTffsJAF5-128" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=0;" value="" vertex="1">
+          <mxGeometry height="47.5" width="72.5" x="337.5" y="708.75" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-170" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;strokeWidth=2;" value="&lt;font style=&quot;font-size: 20px; font-weight: normal;&quot;&gt;代码的构成&lt;/font&gt;" vertex="1">
           <mxGeometry height="1140" width="1200" x="-220" y="60" as="geometry" />
