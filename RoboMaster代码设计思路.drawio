@@ -1,30 +1,9 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="TqSlDJbA6QzODEuQCkG5">
-    <mxGraphModel dx="2530" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1557" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mzKi5vi_VLgdf1B3rxI9-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;用户初始化&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1570" y="500" as="geometry" />
-        </mxCell>
-        <mxCell id="CpUbsKY55scD7TGbU3A_-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;程序开机运行&lt;/font&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="1570" y="340" as="geometry" />
-        </mxCell>
-        <mxCell id="5QGncahA_okGTffsJAF5-1" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
-          <mxGeometry height="120" width="20" x="1766" y="470" as="geometry" />
-        </mxCell>
-        <mxCell id="5QGncahA_okGTffsJAF5-4" edge="1" parent="1" source="CpUbsKY55scD7TGbU3A_-3" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" target="mzKi5vi_VLgdf1B3rxI9-2" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1676" y="460" as="sourcePoint" />
-            <mxPoint x="1726" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5QGncahA_okGTffsJAF5-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="驱动层" vertex="1">
-          <mxGeometry height="30" width="60" x="1786" y="460" as="geometry" />
-        </mxCell>
-        <mxCell id="5QGncahA_okGTffsJAF5-8" edge="1" parent="1" source="mzKi5vi_VLgdf1B3rxI9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="5QGncahA_okGTffsJAF5-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-80" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;span style=&quot;font-size: 16px; font-weight: 400;&quot;&gt;驱动层板块&lt;/span&gt;" vertex="1">
           <mxGeometry height="820" width="360" x="-150" y="440" as="geometry" />
         </mxCell>
@@ -134,6 +113,48 @@
             <mxPoint x="430" y="300" as="sourcePoint" />
             <mxPoint x="530" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-121" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;程序的运行逻辑&lt;/font&gt;" vertex="1">
+          <mxGeometry height="700" width="790" x="1430" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-122" parent="5QGncahA_okGTffsJAF5-121" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;用户初始化&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-123" parent="5QGncahA_okGTffsJAF5-121" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;程序开机运行&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-124" parent="5QGncahA_okGTffsJAF5-121" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="120" width="20" x="396" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-125" edge="1" parent="5QGncahA_okGTffsJAF5-121" source="5QGncahA_okGTffsJAF5-123" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" target="5QGncahA_okGTffsJAF5-122" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="306" y="195" as="sourcePoint" />
+            <mxPoint x="356" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-126" parent="5QGncahA_okGTffsJAF5-121" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="驱动层" vertex="1">
+          <mxGeometry height="30" width="60" x="416" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-127" edge="1" parent="5QGncahA_okGTffsJAF5-121" source="5QGncahA_okGTffsJAF5-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="5QGncahA_okGTffsJAF5-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-128" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="地盘任务的设计思路" vertex="1">
+          <mxGeometry height="800" width="530" x="-290" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-133" parent="5QGncahA_okGTffsJAF5-128" style="rounded=1;whiteSpace=wrap;html=1;" value="初始化函数" vertex="1">
+          <mxGeometry height="60" width="120" x="205" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-134" parent="5QGncahA_okGTffsJAF5-128" style="rounded=1;whiteSpace=wrap;html=1;" value="获取数据、状态函数" vertex="1">
+          <mxGeometry height="60" width="120" x="205" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-135" parent="5QGncahA_okGTffsJAF5-128" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="60" x="235" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-136" parent="5QGncahA_okGTffsJAF5-128" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="66" width="20" x="330" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-141" parent="5QGncahA_okGTffsJAF5-128" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;" value="&lt;ol&gt;&lt;li&gt;控制指令&lt;/li&gt;&lt;li&gt;电机数据&lt;/li&gt;&lt;li&gt;IMU姿态&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="100" width="155" x="330" y="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
