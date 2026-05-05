@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="TqSlDJbA6QzODEuQCkG5">
-    <mxGraphModel dx="1679" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2029" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
           <mxGeometry height="820" width="310" x="660" y="440" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-82" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=2;" value="功能层" vertex="1">
-          <mxGeometry height="460" width="382" x="240" y="440" as="geometry">
+          <mxGeometry height="520" width="382" x="240" y="440" as="geometry">
             <mxRectangle height="30" width="80" x="480" y="350" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -95,6 +95,9 @@
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-85" parent="5QGncahA_okGTffsJAF5-82" style="whiteSpace=wrap;html=1;" value="自用数学函数库" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-94" parent="5QGncahA_okGTffsJAF5-82" style="whiteSpace=wrap;html=1;" value="不同电机控制库" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="200" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-15" parent="1" style="whiteSpace=wrap;html=1;" value="控制指令处理中心" vertex="1">
           <mxGeometry height="60" width="120" x="680" y="570" as="geometry" />
@@ -112,7 +115,25 @@
           <mxGeometry height="170" width="20" x="800" y="515" as="geometry" />
         </mxCell>
         <mxCell id="5QGncahA_okGTffsJAF5-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;代码的构成&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="490" x="191.5" y="160" as="geometry" />
+          <mxGeometry height="60" width="490" x="191.5" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-95" edge="1" parent="1" source="5QGncahA_okGTffsJAF5-80" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" target="5QGncahA_okGTffsJAF5-92" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="30" y="430" as="sourcePoint" />
+            <mxPoint x="80" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-96" edge="1" parent="1" source="5QGncahA_okGTffsJAF5-82" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="390" as="sourcePoint" />
+            <mxPoint x="431" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QGncahA_okGTffsJAF5-97" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.537;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" target="5QGncahA_okGTffsJAF5-81" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="300" as="sourcePoint" />
+            <mxPoint x="530" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
