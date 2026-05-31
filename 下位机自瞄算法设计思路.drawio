@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="AE2pAko5PRYPrc4JvMFU">
+    <mxGraphModel dx="889" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GC5JRq52cg_oHHoeUmBb-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="自瞄算法" vertex="1">
+          <mxGeometry height="905" width="770" x="40" y="25" as="geometry" />
+        </mxCell>
+        <UserObject label="手动指令CMD" id="GC5JRq52cg_oHHoeUmBb-5">
+          <mxCell parent="GC5JRq52cg_oHHoeUmBb-3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="60" width="120" x="140" y="85" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="GC5JRq52cg_oHHoeUmBb-4" parent="GC5JRq52cg_oHHoeUmBb-3" style="rounded=1;whiteSpace=wrap;html=1;" value="上位机指令" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="GC5JRq52cg_oHHoeUmBb-6" parent="GC5JRq52cg_oHHoeUmBb-3" style="rounded=1;whiteSpace=wrap;html=1;" value="权重算法" vertex="1">
+          <mxGeometry height="60" width="120" x="254" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="GC5JRq52cg_oHHoeUmBb-7" edge="1" parent="GC5JRq52cg_oHHoeUmBb-3" source="GC5JRq52cg_oHHoeUmBb-5" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="245" as="sourcePoint" />
+            <mxPoint x="280" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GC5JRq52cg_oHHoeUmBb-14" connectable="0" parent="GC5JRq52cg_oHHoeUmBb-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="控制值范围int16_t类&lt;div&gt;（-1000，1000）&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4635" y="2" as="geometry">
+            <mxPoint x="-53" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GC5JRq52cg_oHHoeUmBb-13" edge="1" parent="GC5JRq52cg_oHHoeUmBb-3" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="145" as="sourcePoint" />
+            <mxPoint x="350" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GC5JRq52cg_oHHoeUmBb-15" connectable="0" parent="GC5JRq52cg_oHHoeUmBb-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="控制值范围int16_t类&lt;div&gt;（-1000，1000）&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3522" y="2" as="geometry">
+            <mxPoint x="41" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GC5JRq52cg_oHHoeUmBb-16" edge="1" parent="1" source="GC5JRq52cg_oHHoeUmBb-6" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="GC5JRq52cg_oHHoeUmBb-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="380" as="sourcePoint" />
+            <mxPoint x="354" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GC5JRq52cg_oHHoeUmBb-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输出控制值（-1000，1000）" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
