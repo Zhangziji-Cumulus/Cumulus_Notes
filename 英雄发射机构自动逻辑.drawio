@@ -88,7 +88,7 @@
           <mxGeometry height="60" width="84" x="2120" y="-400" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-85" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;变量&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="150" x="1220" y="-1100" as="geometry" />
+          <mxGeometry height="60" width="150" x="1200" y="-1155" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-169" edge="1" parent="1" source="tf_ZZSgzTsWozvB3qeOd-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-168">
           <mxGeometry relative="1" as="geometry" />
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-172" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;重新装弹&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="2490" y="-370" as="geometry" />
+        </mxCell>
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-175" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="530" width="90" x="1350" y="-1390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
