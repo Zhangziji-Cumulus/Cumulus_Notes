@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="u_D7TKx53jZF-GtlsYhE">
-    <mxGraphModel dx="1076" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Wg9KT16DVnrnb75tjt0--2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="870" width="1730" x="320" y="90" as="geometry" />
+          <mxGeometry height="870" width="2190" x="360" y="80" as="geometry" />
         </mxCell>
         <mxCell id="gIHFezyUMSMG-NMEax5I-2" parent="Wg9KT16DVnrnb75tjt0--2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;开始填弹标志LoadFlag&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="140" y="180" as="geometry" />
@@ -37,42 +37,56 @@
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-4" parent="Wg9KT16DVnrnb75tjt0--2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;发射弹丸&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;FireA&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="140" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="tf_ZZSgzTsWozvB3qeOd-30" edge="1" parent="Wg9KT16DVnrnb75tjt0--2" source="tf_ZZSgzTsWozvB3qeOd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="766" y="610.4736842105265" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-42" edge="1" parent="Wg9KT16DVnrnb75tjt0--2" source="tf_ZZSgzTsWozvB3qeOd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-10" parent="Wg9KT16DVnrnb75tjt0--2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;推杆行程A&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="387" y="580" as="geometry" />
+          <mxGeometry height="60" width="113" x="387" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-45" edge="1" parent="Wg9KT16DVnrnb75tjt0--2" source="tf_ZZSgzTsWozvB3qeOd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="740" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-11" parent="Wg9KT16DVnrnb75tjt0--2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;推杆行程B&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="387" y="710" as="geometry" />
+          <mxGeometry height="60" width="113" x="387" y="710" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-18" parent="Wg9KT16DVnrnb75tjt0--2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;检测发射了弹丸&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="556" y="580" as="geometry" />
+          <mxGeometry height="60" width="84" x="480" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-44" edge="1" parent="Wg9KT16DVnrnb75tjt0--2" source="tf_ZZSgzTsWozvB3qeOd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-6" parent="Wg9KT16DVnrnb75tjt0--2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;发射弹丸&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;FireB&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="1390" y="580" as="geometry" />
-        </mxCell>
-        <mxCell id="tf_ZZSgzTsWozvB3qeOd-22" parent="Wg9KT16DVnrnb75tjt0--2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;检测发射了弹丸&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="594" y="710" as="geometry" />
+          <mxGeometry height="60" width="160" x="1030" y="540" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-31" edge="1" parent="Wg9KT16DVnrnb75tjt0--2" source="tf_ZZSgzTsWozvB3qeOd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="980" y="610" as="targetPoint" />
+            <mxPoint x="900" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-19" parent="Wg9KT16DVnrnb75tjt0--2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;发射结束&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="720" y="580" as="geometry" />
+          <mxGeometry height="60" width="160" x="580" y="420" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-29" parent="Wg9KT16DVnrnb75tjt0--2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;检测发射了弹丸&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="1210" y="580" as="geometry" />
+          <mxGeometry height="30" width="90" x="1100" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="tf_ZZSgzTsWozvB3qeOd-35" edge="1" parent="Wg9KT16DVnrnb75tjt0--2" source="tf_ZZSgzTsWozvB3qeOd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-6">
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-43" edge="1" parent="Wg9KT16DVnrnb75tjt0--2" source="tf_ZZSgzTsWozvB3qeOd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-32" parent="Wg9KT16DVnrnb75tjt0--2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;发射弹丸&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="150" x="1040" y="580" as="geometry" />
+          <mxGeometry height="60" width="150" x="880" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-36" parent="Wg9KT16DVnrnb75tjt0--2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;发射结束&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="1030" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-37" parent="Wg9KT16DVnrnb75tjt0--2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;等待第二次发射指令&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="750" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-40" parent="Wg9KT16DVnrnb75tjt0--2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;检测发射了弹丸&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="84" x="730" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
