@@ -7,7 +7,7 @@
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-58" edge="1" parent="1" source="tf_ZZSgzTsWozvB3qeOd-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tf_ZZSgzTsWozvB3qeOd-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;开始填弹标志Load&lt;/span&gt;" vertex="1">
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;开始填弹标志isLoad&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="1390" y="-760" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-60" edge="1" parent="1" source="tf_ZZSgzTsWozvB3qeOd-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-63">
