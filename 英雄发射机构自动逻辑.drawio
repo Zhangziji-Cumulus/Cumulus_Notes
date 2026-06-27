@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="u_D7TKx53jZF-GtlsYhE">
-    <mxGraphModel dx="633" dy="3232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="25" dy="2860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,13 +102,19 @@
           <mxGeometry height="60" width="270" x="1460" y="-1010" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-155" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;开始填弹：LoadStart&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;填弹中：LoadIng&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;填弹完毕：LoadEnd&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;发射预备：FireRead&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="280" x="1980" y="-1160" as="geometry" />
+          <mxGeometry height="120" width="280" x="1950" y="-1220" as="geometry" />
+        </mxCell>
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-161" edge="1" parent="1" source="tf_ZZSgzTsWozvB3qeOd-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tf_ZZSgzTsWozvB3qeOd-157">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-156" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;推杆行程标志&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="270" x="1465" y="-900" as="geometry" />
+          <mxGeometry height="60" width="270" x="1465" y="-880" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-157" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;推杆行程A：PushToA&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;推杆行程B&lt;/span&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;：PushToB&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="260" x="1980" y="-970" as="geometry" />
+          <mxGeometry height="100" width="260" x="1813" y="-900" as="geometry" />
+        </mxCell>
+        <mxCell id="tf_ZZSgzTsWozvB3qeOd-163" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;发射&lt;font style=&quot;&quot;&gt;了&lt;/font&gt;弹丸数量：Fired&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="317" x="1813" y="-1025" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
