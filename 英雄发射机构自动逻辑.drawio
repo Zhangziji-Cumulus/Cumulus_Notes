@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="u_D7TKx53jZF-GtlsYhE">
-    <mxGraphModel dx="745" dy="3301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="451" dy="3121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,9 @@
           <mxGeometry height="60" width="120" x="1400" y="-570" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-64" edge="1" parent="1" source="tf_ZZSgzTsWozvB3qeOd-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tf_ZZSgzTsWozvB3qeOd-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kb0vTTfURbEjehvZ4aAZ-3" edge="1" parent="1" source="tf_ZZSgzTsWozvB3qeOd-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="kb0vTTfURbEjehvZ4aAZ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tf_ZZSgzTsWozvB3qeOd-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;发射预备FireRead&lt;/span&gt;" vertex="1">
@@ -147,6 +150,9 @@
         </mxCell>
         <mxCell id="kb0vTTfURbEjehvZ4aAZ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;推杆返回到最后端&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="200" x="2000" y="-760" as="geometry" />
+        </mxCell>
+        <mxCell id="kb0vTTfURbEjehvZ4aAZ-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;推杆向前挪动一小段距离，确保弹丸不会被甩出来&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="1140" y="-490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
